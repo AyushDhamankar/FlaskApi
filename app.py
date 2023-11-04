@@ -168,5 +168,5 @@ api.add_resource(prediction, '/prediction/<string:location>/<int:sqft>/<int:bhk>
 api.add_resource(sendData, '/receive_data')
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True)
 
